@@ -1,0 +1,91 @@
+
+/** @format */
+
+
+
+header,footer{
+  background-color: black;
+  color: white;
+ 
+}
+header a{
+  color: white;
+  padding: 10px;
+}
+body{
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+  padding: 0px;
+}
+nav li{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid white;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  text-decoration: underline;
+}
+.cta-button{
+  background:rgb(187, 0, 0);
+  color: white;
+  
+  text-transform: uppercase;
+  padding: 10px 80px;
+  font-size: 1em;
+  border-radius: 5px;
+  
+}
+.reviews{
+  background-color: white;
+}
+.featured-product{
+  background-color: white;
+}
+.cta-sale{
+  background-color: rgb(18, 115, 0);
+  color: white;
+ 
+}
+.cta-small{
+ 
+  padding: 8px 30px;
+  font-size: 0.8em;
+}
+footer{
+  text-align: center;
+}
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs\ \(1\).ttf") format("truetype");
+}
+.welcome{
+  background-image: url("../images/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+.image-review{
+  border-radius: 50%;
+  max-width: 200px;
+}
+.home-img{
+  border-radius: 10%;
+  max-width: 700px;
+}
+h1,
+h2,
+.logo {
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input,select,textarea 
+{
+  border: 1px solid ;
+  border-radius: 5px;
+}
